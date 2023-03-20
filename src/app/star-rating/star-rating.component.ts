@@ -7,5 +7,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./star-rating.component.css']
 })
 export class StarRatingComponent {
+  //rating:number=4;
   @Input() rating!:number;
 }
